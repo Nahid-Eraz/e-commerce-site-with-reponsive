@@ -1,0 +1,46 @@
+.logo-img{
+    width: 150px;
+    height: 75px;
+}
+.navbar-text{
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    left: 70%;
+}
+.main-front-img{
+    width: 90%;
+}
+h1, h5{
+    color: rgb(17, 13, 82);
+    font-family: 'Anton', sans-serif;
+}
+.header-text{
+    font-size: 70px;
+}
+.main-front-position{
+    position: relative;
+    left: 2%;
+}
+.header-span, .price-tag{
+    color: rgb(255, 132, 111);
+}
+.price-tag{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.buy-now-icon{
+    width: 28px;
+}
+.card-image{
+    width: fit-content;
+    background-color: rgba(211, 211, 211, 0.363);
+    border: 20px solid white;
+}
+.card-border{
+    border: 0;
+}
+.service-margin-top{
+    margin-top: 150px;
+}
