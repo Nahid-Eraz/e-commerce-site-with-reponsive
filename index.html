@@ -28,17 +28,17 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav navbar-text">
-                          <a class="nav-link active me-4" aria-current="page" href="#">Home</a>
-                          <a class="nav-link me-4" href="#">Products</a>
-                          <a class="nav-link me-4" href="#">About Us</a>
-                          <a class="nav-link me-5" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                          <a class="nav-link active me-4" aria-current="page" href="#home">Home</a>
+                          <a class="nav-link me-4" href="#products">Products</a>
+                          <a class="nav-link me-4" href="#about_us">About Us</a>
+                          <a class="nav-link me-5" href="#contact_us" tabindex="-1" aria-disabled="true">Contact Us</a>
                         </div>
                       </div>
                     </div>
                   </nav>
             </article>
             <!-- image & text -->
-            <article class="container d-flex justify-content-between align-items-center">
+            <article id="home" class="container d-flex justify-content-between align-items-center">
                  <div class="row d-flex align-items-center justify-content-evenly main-front-position">
                     <div class="col-md-7 p-4">
                         <img class="main-front-img" src="images/photos/main.png" alt="">
@@ -46,14 +46,13 @@
                     <div class="col-md-5 p-4">
                         <h1 class="header-text"><span class="header-span">NIKE REACT</span><br>INFINITY RUN 2</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quia!</p>
-                        <!-- need modification buttons -->
                         <button style="background-color: rgb(77, 48, 204);" type="button" class="btn btn-primary"><img class="buy-now-icon" src="images/logo-icon/shopping-cart 1.png" alt=""> BUY NOW</button>
                     </div>
                   </div>
             </article>
           </section>
           <!-- casual shoes section -->
-          <section class="container mt-5">
+          <section id="products" class="container mt-5">
             <h1>CASUAL SHOES</h1>
             <article>
               <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
@@ -155,7 +154,7 @@
           </section>
 
           <!-- service section  -->
-          <section class="container service-margin-top">
+          <section id="about_us" class="container service-margin-top">
             <article class="d-flex align-items-center">
               <div class="row d-flex align-items-center">
                  <div class="col-md-7 p-3">
@@ -198,10 +197,32 @@
                </div>
          </article>
          </section>
+         <section id="contact_us" style="height: 350px; background-color:#fff3ec ;" class="container d-flex justify-content-center align-items-center mt-5">
+          <article>
+              <h1>JUST DO IT.</h1>
+              <h5>Sign up now and join our fasinating universe</h5>
+              <input type="text">
+              <small style="color: rgba(128, 128, 128, 0.753);">Hint: First Name Last Name</small>
+              <br>
+              <br>
+              <input type="email" name="" id="">
+              <small style="color: rgba(128, 128, 128, 0.753);">Hint: example@gmail.com</small>
+              <br>
+              <br>
+              <input type="password" name="" id="">
+              <small style="color: rgba(128, 128, 128, 0.753);">Your password. Must be more then 8 digit or letter.</small>
+              <br>
+              <br>
+              <button style="background-color: rgb(77, 48, 204);" type="button" class="btn btn-primary">DO IT. NOW</button>
+          </article>
+      </section>
     </header>
 
-
+    <footer class="text-center mt-5">
+      <small> nahidulislameraz@gmail.com | ©2020 | All rights reserved | Bangladesh.</small>
+    </footer>
 
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
